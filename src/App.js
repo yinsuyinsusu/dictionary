@@ -1,15 +1,12 @@
-
-import './App.css';
+import "./App.css";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Disctionary
-        <p>
-         search a word...
-        </p>
-        
+        <Dictionary />
+        <p>search a word...</p>
       </header>
     </div>
   );
