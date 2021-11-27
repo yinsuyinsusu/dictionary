@@ -3,6 +3,7 @@ import Meaning from "./Meaning.js";
 import Phonetic from "./Phonetic.js";
 
 
+
 export default function Results(props){
     if(props.results){
     return (
@@ -19,11 +20,13 @@ export default function Results(props){
           })}
         </section>
         <br />
+        
+        <br />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>
               <Meaning meaning={meaning} />
-           </section>
+            </section>
           );
         })}
       </div>
