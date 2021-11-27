@@ -55,7 +55,6 @@ export default function Dictionary() {
         />
         <input type="submit" value="Search" />
       </form>
-
       <Results results={results} />
       <Photos photos={photos} />
     </div>
